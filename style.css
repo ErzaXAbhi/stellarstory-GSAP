@@ -260,6 +260,10 @@ body {
     text-align: center;
   }
 
+  .navbar .logo h1 {
+    padding: 1rem;
+  }
+
   .navbar .menu {
     margin: 0.5rem;
   }
@@ -294,5 +298,13 @@ body {
 
   .right-hero {
     margin-top: 3rem;
+  }
+
+  .top h6 {
+    margin-top: 0rem;
+  }
+
+  .right-hero-bottom {
+    height: 80%;
   }
 }
