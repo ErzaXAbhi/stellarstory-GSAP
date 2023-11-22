@@ -204,6 +204,12 @@ body {
   border-radius: 30px;
   color: var(--primary);
   text-transform: uppercase;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.right-hero-top .bottom .btn:active {
+  scale: 0.8;
 }
 
 .right-hero-bottom {
@@ -233,18 +239,25 @@ body {
 .right-hero-bottom p {
   text-transform: uppercase;
   line-height: 1;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  color: var(--secondary);
 }
 
 .right-hero-bottom .para i {
-  transform: rotate(-50deg);
+  transform: rotate(-45deg);
   background: var(--dark);
   padding: 0.8rem;
   /* margin-left: 4rem; */
   color: var(--primary);
   border-radius: 50%;
-  font-size: 0.8rem;
-  /* text-align: center; */
+  font-size: 0.9rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.right-hero-bottom .para i:hover {
+  transform: rotate(-90deg);
+  font-size: 1rem;
+  background: var(--secondary);
 }
 
 /* Responsive */
@@ -275,6 +288,10 @@ body {
   .hero {
     display: flex;
     flex-direction: column;
+  }
+
+  .hero .left-hero-top {
+    margin-top: -1rem;
   }
 
   .left-hero-top p {
