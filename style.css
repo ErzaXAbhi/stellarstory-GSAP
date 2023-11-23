@@ -35,7 +35,7 @@ body {
 
 .navbar .logo h1 {
   padding-left: 1rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .navbar .menu ul {
