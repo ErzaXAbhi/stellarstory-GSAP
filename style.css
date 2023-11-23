@@ -106,6 +106,7 @@ body {
   text-transform: uppercase;
   color: var(--primary);
   letter-spacing: -2px;
+  visibility: hidden;
 }
 
 .left-hero-bottom {
@@ -130,21 +131,25 @@ body {
   color: var(--dark);
   font-size: 1.5rem;
   text-transform: capitalize;
+  visibility: hidden;
 }
 .left-img h6 {
   color: var(--primary);
   font-size: 1rem;
+  margin-top: -1rem;
 }
 
 .right-img h5 {
   color: var(--dark);
   font-size: 1.5rem;
   text-transform: capitalize;
+  visibility: hidden;
 }
 
 .right-img h6 {
   color: var(--primary);
   font-size: 1rem;
+  margin-top: -1rem;
 }
 
 .left-hero-bottom .right-img {
@@ -228,6 +233,7 @@ body {
   text-transform: uppercase;
   line-height: 1;
   font-size: 2.5rem;
+  visibility: hidden;
 }
 
 .right-hero-bottom .para {
