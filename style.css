@@ -330,10 +330,18 @@ body {
   }
 
   .top h6 {
-    margin-top: 1rem;
+    margin-top: 0rem;
   }
 
   .right-hero-bottom {
     height: 80%;
+  }
+
+  .left-img h6 {
+    margin-top: 1rem;
+  }
+
+  .right-img h6 {
+    margin-top: 1rem;
   }
 }
